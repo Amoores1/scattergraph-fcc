@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3{
+    text-align: center;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#canvas{
+    background-color:bisque;
+}
+
+#tooltip {
+    visibility: hidden;
+    width:auto;
+    height: auto;
+}
